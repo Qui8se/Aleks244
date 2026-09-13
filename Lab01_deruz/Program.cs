@@ -53,13 +53,49 @@
 
 
 
+// Console.WriteLine();
+// Console.WriteLine("Внимание: деление int");
+
+// int totalStudents = 25;
+// int groupsCount = 4;
+// int studentsPerGroupWrong = totalStudents / groupsCount;
+// double studentsPerGroupCorrect = (double)totalStudents / groupsCount;
+
+// Console.WriteLine($"25 / 4 как int: {studentsPerGroupWrong}");
+// Console.WriteLine($"25 / 4 как double: {studentsPerGroupCorrect}");
+
+
+
+
+
+// Console.WriteLine();
+// Console.WriteLine("Способы собрать строку");
+
+// string firstName = "Анна";
+// string lastName = "Cмирнова";
+
+// string fullNameConcat = firstName + " " + lastName;
+
+// string fullNameInterp = $"{firstName} {lastName}";
+
+// string fullnameConcatMethod = string.Concat(firstName, " ", lastName);
+
+// Console.WriteLine(fullNameConcat);
+// Console.WriteLine(fullNameInterp);
+// Console.WriteLine(fullnameConcatMethod);
+// Console.WriteLine($"Все три строки равны: {fullNameConcat == fullNameInterp && fullNameInterp == fullnameConcatMethod}");
+
+
+
+
 Console.WriteLine();
-Console.WriteLine("Внимание: деление int");
+Console.WriteLine("Константы");
 
-int totalStudents = 25;
-int groupsCount = 4;
-int studentsPerGroupWrong = totalStudents / groupsCount;
-double studentsPerGroupCorrect = (double)totalStudents / groupsCount;
+const double VatRate = 0.20;
+const string CollegeName = "ВФ ВолГУ";
 
-Console.WriteLine($"25 / 4 как int: {studentsPerGroupWrong}");
-Console.WriteLine($"25 / 4 как double: {studentsPerGroupCorrect}");
+double productPrice = 1000;
+double priceWithVat = productPrice * (1 + VatRate);
+
+Console.WriteLine($"Учебное заведение: {CollegeName}");
+Console.WriteLine($"Цена без НДС: {productPrice}, с НДС ({VatRate:P0}):{priceWithVat}");
