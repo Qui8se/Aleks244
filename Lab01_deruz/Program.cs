@@ -74,10 +74,13 @@
 // string firstName = "Анна";
 // string lastName = "Cмирнова";
 
+// способ 1: конкатенация через оператор +
 // string fullNameConcat = firstName + " " + lastName;
 
+// Способ 2: интерполяция через $""
 // string fullNameInterp = $"{firstName} {lastName}";
 
+// Способ 3: метод String.Concat
 // string fullnameConcatMethod = string.Concat(firstName, " ", lastName);
 
 // Console.WriteLine(fullNameConcat);
@@ -88,14 +91,19 @@
 
 
 
-Console.WriteLine();
-Console.WriteLine("Константы");
+// Console.WriteLine();
+// Console.WriteLine("Константы");
+// //НДС фиксирован законом, поэтому const
+// const double VatRate = 0.20;
+// const string CollegeName = "ВФ ВолГУ";
 
-const double VatRate = 0.20;
-const string CollegeName = "ВФ ВолГУ";
+// double productPrice = 1000;
+// double priceWithVat = productPrice * (1 + VatRate);
 
-double productPrice = 1000;
-double priceWithVat = productPrice * (1 + VatRate);
+// Console.WriteLine($"Учебное заведение: {CollegeName}");
+// Console.WriteLine($"Цена без НДС: {productPrice}, с НДС ({VatRate:P0}):{priceWithVat}");
 
-Console.WriteLine($"Учебное заведение: {CollegeName}");
-Console.WriteLine($"Цена без НДС: {productPrice}, с НДС ({VatRate:P0}):{priceWithVat}");
+
+
+
+
