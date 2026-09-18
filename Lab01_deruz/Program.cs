@@ -123,10 +123,13 @@
 
 
 
-int totalMinutes = 500;
-int minutesPerLesson = 45;
+// int totalMinutes = 500;
+// int minutesPerLesson = 45;
 
-int lesson = totalMinutes / minutesPerLesson;
-int lessonOst = totalMinutes % minutesPerLesson;
+// int lesson = totalMinutes / minutesPerLesson;
+// int lessonOst = totalMinutes % minutesPerLesson;
 
-Console.WriteLine($"{totalMinutes} минут = {lesson} полных занятий + {lessonOst} минут");
+// Console.WriteLine($"{totalMinutes} минут = {lesson} полных занятий + {lessonOst} минут");
+
+
+
