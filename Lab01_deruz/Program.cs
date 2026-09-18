@@ -106,14 +106,14 @@
 
 
 
-Console.WriteLine();
-int scholarship = 800;
-int monthlyExpenses = 4800;
-const int MonthsInSemester = 4; 
+// Console.WriteLine();
+// int scholarship = 800;
+// int monthlyExpenses = 4800;
+// const int MonthsInSemester = 4; 
 
-int monthlyMoney = scholarship - monthlyExpenses;
-Console.WriteLine($"Остаток за месяц: {monthlyMoney}");
+// int monthlyMoney = scholarship - monthlyExpenses;
+// Console.WriteLine($"Остаток за месяц: {monthlyMoney}");
 
 
-int semesterMoney = MonthsInSemester * monthlyMoney;
-Console.WriteLine($"Остаток за семестр: {semesterMoney}");
+// int semesterMoney = MonthsInSemester * monthlyMoney;
+// Console.WriteLine($"Остаток за семестр: {semesterMoney}");
