@@ -117,3 +117,16 @@
 
 // int semesterMoney = MonthsInSemester * monthlyMoney;
 // Console.WriteLine($"Остаток за семестр: {semesterMoney}");
+
+
+
+
+
+
+int totalMinutes = 500;
+int minutesPerLesson = 45;
+
+int lesson = totalMinutes / minutesPerLesson;
+int lessonOst = totalMinutes % minutesPerLesson;
+
+Console.WriteLine($"{totalMinutes} минут = {lesson} полных занятий + {lessonOst} минут");
